@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== GLOBAL RESET ========== */
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 font-sans antialiased;
+}
+
+/* ========== TYPOGRAPHY ========== */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-900;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+a:hover {
+  @apply text-orange-500;
+}
+
+/* ========== BUTTONS ========== */
+.btn {
+  @apply inline-block px-6 py-3 rounded-full font-medium transition;
+}
+
+.btn-primary {
+  @apply bg-orange-500 text-white hover:bg-orange-600;
+}
+
+.btn-outline {
+  @apply border border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white;
+}
+
+/* ========== UTILITY CLASSES ========== */
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+.section-center {
+  @apply flex flex-col items-center justify-center text-center py-24;
+}
+
+/* Hero overlay for background images */
+.hero-overlay {
+  @apply relative w-full h-[85vh] flex items-center justify-center text-center text-white;
+}
+.hero-overlay::after {
+  content: "";
+  @apply absolute inset-0 bg-black/50;
+}
