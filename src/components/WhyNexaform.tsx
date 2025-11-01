@@ -51,7 +51,7 @@ const WhyNexaform = () => {
 
         {/* 3-Column Benefits Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-16">
-          {benefits.map((benefit, index) => (
+          {benefits.map((benefit) => (
             <div key={benefit.title} className="flex flex-col">
               
               {/* Icon and Title Block */}

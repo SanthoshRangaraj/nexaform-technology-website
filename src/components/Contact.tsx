@@ -1,4 +1,4 @@
-import { Phone, Mail, Printer, MapPin } from 'lucide-react';
+import { Phone, Mail,  MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 // Data for the contact details column

@@ -4,7 +4,6 @@ import React from 'react';
 
 // Define the custom colors used in the design for Tailwind's arbitrary values
 const BRAND_ORANGE = '#FF6633';
-const BRAND_BLUE = '#101F40';
 const DARK_BG = '#ffffffff';
 
 const AssetLifeCycle: React.FC = () => {

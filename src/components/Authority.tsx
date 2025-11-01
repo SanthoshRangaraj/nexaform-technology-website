@@ -33,7 +33,7 @@ const Authority = () => {
 
           {/* Description Text */}
           <p className="text-base font-light max-w-xl mb-10">
-            At Nexaform, Maximo Is Not Just One Of Our Offerings — It's Our Primary Focus. With The
+            At Nexaform, Maximo Is Not Just One Of Our Offerings — It&apos;s Our Primary Focus. With The
             Largest Pool Of Maximo Expertise Globally And A History Of Innovation That Stretches Over
             Many Years, We Assist The Most Asset-Heavy Organizations In Operating More Intelligently,
             Efficiently, And Securely.

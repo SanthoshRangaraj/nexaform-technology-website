@@ -183,7 +183,7 @@ const Navbar = () => {
         <div className="hidden lg:block">
           <Link href="/#Contact" passHref>
             <button className="px-6 py-3 rounded-xl text-white text-lg font-semibold bg-orange-600 transition duration-300 ease-in-out shadow-lg shadow-orange-700/50 hover:bg-orange-700">
-              Let's Talk
+              Let&apos;s Talk
             </button>
           </Link>
         </div>
@@ -223,7 +223,7 @@ const Navbar = () => {
           {/* Mobile CTA Button */}
           <Link href="/#Contact" passHref className="mt-4 pt-4 border-t border-gray-200 w-full text-center">
             <button onClick={toggleMenu} className="px-8 py-3 rounded-lg text-white text-lg font-semibold bg-orange-600 w-3/4 transition duration-300 hover:bg-orange-700 shadow-md">
-              Let's Talk
+              Let&apos;s Talk
             </button>
           </Link>
         </div>
